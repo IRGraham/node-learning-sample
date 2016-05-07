@@ -1,0 +1,19 @@
+{
+    'extends': [
+        './eslint/rules/es6.js',
+        './eslint/rules/react.js',
+        './eslint/rules/legacy.js',
+        './eslint/rules/variables.js',
+        './eslint/rules/best-practices.js',
+        './eslint/rules/style.js',
+        './eslint/rules/strict.js'
+    ],
+    'parser': 'babel-eslint',
+    'env': {
+        'browser': true,
+        'node': true,
+        'jasmine': true
+    },
+    'rules': {},
+    'globals': {}
+}
